@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.wso2.af</groupId>
   <artifactId>testapp147</artifactId>
-  <version>SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
   <name>testapp147 Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -16,11 +16,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-	<groupId>javax.servlet</groupId>
-	<artifactId>servlet-api</artifactId>
-	<version>3.0-alpha-1</version>
-</dependency>
-            
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>3.0-alpha-1</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>${artifactId}-${version}</finalName>
